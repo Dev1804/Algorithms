@@ -1,7 +1,8 @@
-
-// Selection sort 
+	
+// Selection sort
 
 public class SelectionSort {
+
 
 	void sort(int[] arr) {
 		int n = arr.length;
@@ -19,10 +20,8 @@ public class SelectionSort {
 			int temp = arr[min_index];
 			arr[min_index] = arr[i];
 			arr[i] = temp;
-
 		}
 	}
-
 	// Prints the array
 	void printArray(int[] arr) {
 
@@ -38,12 +37,15 @@ public class SelectionSort {
 
 		SelectionSort sort = new SelectionSort();
 		int[] arr = { 64, 25, 12, 22, 11, 43, 3, 5, 45, 23, 12 };
-		for (int ar : arr)
-		System.out.print(ar + " ");
-		System.out.println();
 		sort.sort(arr);
 		System.out.println("Sorted array");
 		sort.printArray(arr);
 	}
 
 }
+
+/*
+ OUTPUT: 
+ Sorted array
+3 5 11 12 12 22 23 25 43 45 64 
+ */

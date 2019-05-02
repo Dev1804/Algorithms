@@ -34,3 +34,10 @@ public class BubbleSort {
 	}
 
 }
+
+/*
+  OUTPUT: 
+ ********** Print the sorted array ! ******************
+ 
+			  0 2 7 23 32 43 54 
+ */

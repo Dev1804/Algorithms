@@ -70,9 +70,17 @@ public class QuickSort {
 		int n = arr.length;
 		QuickSort ob = new QuickSort();
 		ob.sort(arr, 0, n - 1);
-		System.out.println(" sorted array ");
+		System.out.println(" ----------- Sorted array ---------- ");
 		printArray(arr);
 
 	}
 
 }
+
+/*
+  OUTPUT :  
+  ----------- Sorted array ---------- 
+              
+              1 5 7 8 9 10 
+ */
+
